@@ -1,0 +1,2 @@
+# opensearch
+Own OpenSearch plugins
