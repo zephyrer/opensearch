@@ -7,7 +7,7 @@
 <Image width="16" height="16" type="image/x-icon">https://www.google.com/images/branding/product/ico/googleg_lodp.ico</Image>
 <InputEncoding>UTF-8</InputEncoding>
 <moz:SearchForm>https://www.google.com/search</moz:SearchForm>
-<moz:UpdateUrl>https://github.com/zephyrer/opensearch/GoogleImage.xml</moz:UpdateUrl>
+<moz:UpdateUrl>https://raw.githubusercontent.com/zephyrer/opensearch/master/GoogleImage.xml</moz:UpdateUrl>
 <moz:IconUpdateUrl>https://www.google.com/images/branding/product/ico/googleg_lodp.ico</moz:IconUpdateUrl>
 <moz:UpdateInterval>7</moz:UpdateInterval>
 </OpenSearchDescription>
