@@ -5,7 +5,7 @@
 <Description>益书网 Search</Description>
 <Url type="text/html" method="post" template="https://kindbook.cn/search.php?mod=forum&amp;srchtxt={searchTerms}&amp;searchsubmit=yes&amp;sourceid=opensearch"/>
 <Image width="16" height="16" type="image/x-icon">https://kindbook.cn/favicon.ico</Image>
-<InputEncoding>ASCII</InputEncoding>
+<InputEncoding>GBK</InputEncoding>
 <moz:SearchForm>https://kindbook.cn/</moz:SearchForm>
 <moz:UpdateUrl>https://raw.githubusercontent.com/zephyrer/opensearch/master/kindbook.xml</moz:UpdateUrl>
 <moz:IconUpdateUrl>https://kindbook.cn/favicon.ico</moz:IconUpdateUrl>
