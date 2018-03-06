@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/"><script xmlns=""/>
+    <InputEncoding>GB2312</InputEncoding>
+    <ShortName>天猫</ShortName>
+    <LongName>天猫Tmall.com</LongName>
+    <Description>天猫搜索</Description>
+    <Image height="16" width="16" type="image/x-icon">
+        http://a.tbcdn.cn/p/mall/base/favicon.ico
+    </Image>
+    <Url type="text/html" template="http://list.tmall.com/search_product.htm?q={searchTerms}&amp;type=p&amp;from=..pc_1_opensearch"/>
+    <moz:UpdateUrl>https://raw.githubusercontent.com/zephyrer/opensearch/master/tmall.xml</moz:UpdateUrl>
+    <moz:IconUpdateUrl>http://a.tbcdn.cn/p/mall/base/favicon.ico</moz:IconUpdateUrl>
+    <moz:UpdateInterval>7</moz:UpdateInterval>
+<div xmlns="" id="mask"/><head xmlns=""/></OpenSearchDescription>
