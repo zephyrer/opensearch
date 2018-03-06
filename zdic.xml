@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
 <os:ShortName>汉典</os:ShortName>
 <os:Description>汉典</os:Description>
