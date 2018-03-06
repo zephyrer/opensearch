@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
 <os:ShortName>汉典</os:ShortName>
 <os:Description>汉典</os:Description>
@@ -11,6 +12,6 @@
   <os:Param name="tp" value="tp1"/>
   <os:Param name="q" value="{searchTerms}"/>
 </os:Url>
-<UpdateUrl>https://raw.githubusercontent.com/zephyrer/opensearch/master/zdic.xml</moz:UpdateUrl>
-<UpdateInterval>7</moz:UpdateInterval>
+<UpdateUrl>https://raw.githubusercontent.com/zephyrer/opensearch/master/zdic.xml</UpdateUrl>
+<UpdateInterval>7</UpdateInterval>
 </SearchPlugin>
