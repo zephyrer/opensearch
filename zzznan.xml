@@ -1,0 +1,16 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>佐喃</os:ShortName>
+<os:Description>佐喃</os:Description>
+<os:InputEncoding>gbk</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABW0lEQVQ4jaXTS0sCYRjFcb9Bkk6jOUZqvu9cynQaywqj6IJhanmJpECywksaSbQKWkUEEbSIln3Vf4tWUVna4qwe+HEW53GNeEb5T1z9jp5wEEWGhgfEaQHZKA4HKHoIo1vB6FRQY2JwQDb2CO2tES6vo7dKgwFqTCDPdjF7VczLA8RJHn/S+jugt4qIep7Y7Qnx+yainkdvf9/iC+BPWhgX+xidCqKeQ9Rz6O0SRnefQDrxO6C3Sziv1zgvV0SPtonWsthPF8y/3Xzb4hOgpRPYD+dYvSrOcw9ZyyJqO9iPXaxelcRdk4nN1M+A26egbaU+srGAYkXQVh1889P4UjOojonbp/QH9FYZ8/IAo1Nh6jCDOM4xdZhBnu0iTwtfltl3iUP9gjc6iX/OJLAcR52VKDKEP2kxvjiLNzLxOzBmRgikbcaX4mirDmpMEFiOo63YeMLBwZ7pL3kHwhhfQPYB1p8AAAAASUVORK5CYII=</os:Image>
+<SearchForm>http://bbs.zzznan.com</SearchForm>
+<os:Url type="text/html" method="POST" template="http://bbs.zzznan.com/search.php?searchsubmit=yes" resultDomain="bbs.zzznan.com">
+  <os:Param name="mod" value="forum"/>
+  <os:Param name="formhash" value="40f3330c"/>
+  <os:Param name="srchtype" value="title"/>
+  <os:Param name="srhfid" value=""/>
+  <os:Param name="srhlocality" value="forum%3A%3Aindex"/>
+  <os:Param name="srchtxt" value="{searchTerms}"/>
+  <os:Param name="searchsubmit" value="true"/>
+</os:Url>
+</SearchPlugin>
