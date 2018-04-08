@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>优书网</os:ShortName>
+<os:Description>优书网</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABtElEQVQ4jbWRzWtTQRTFf68v/bCLWsVlXSgKBUURBcWluyKCf4R/gHsXNhmVIiLiRqolbyZRAw9X6sZVdlVcdCEUhECDX8ncZ/oybhSkdlwkeW1sKmbhgbu5c8+dc+6B/4rH61PEq2PDE2MfYpoLaGmj7Rq6eSx7i+oTlOUkpcaZMSMnBi8ofjmIFo8RjxaPTt4SxyGP7CG0vMPIZqcvK7tJn+kOeLT4wNhl5qs5jLze3g+NvYJTI7faN4KXaZ6Fb2r8aMdCHKIThZYUI++JGrNoew2d/MpUGfnM0qf9pPnwkivgXQHvVNBuqdyFLSW1Kao+R9GeRdsffbYiexWA2n3GXSF44xS+Wx/r89PT2ZJycgQt69ulo+0aT9y+bCbNc9EpNp3qKGkrXgBQssfRkvaTxRPJ5b6b+UVGneJVz0qqwo25B+V7GPm+lUSnRkq2QtXndhzeFUZPf7i592flzpw///C53/Frx3+Np40DA5PzEMwsreQxyW7kr0St2cG597DYmETLsz/JgbGtyUpy6u/kHqL6BFHzNlo2ugtWKcrhfyNnfnxAZM9hmte5u7xnOPKQ+A2EIiupANuxrAAAAABJRU5ErkJggg==</os:Image>
+<SearchForm>http://www.yousuu.com</SearchForm>
+<os:Url type="text/html" method="GET" template="http://www.yousuu.com/" resultDomain="yousuu.com">
+  <os:Param name="searchType" value="all"/>
+  <os:Param name="searchTextInput" value="{searchTerms}"/>
+</os:Url>
+<UpdateUrl>https://raw.githubusercontent.com/zephyrer/opensearch/master/yousuu.xml</UpdateUrl>
+<UpdateInterval>7</UpdateInterval>
+</SearchPlugin>
