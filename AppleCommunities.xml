@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Apple Communities</ShortName>
+  <Description>Search Apple Communities</Description>
+  <Contact>discussions-updates@apple.com</Contact>
+  <Url type="text/html"
+       template="https://discussions.apple.com/search.jspa?peopleEnabled=true&amp;q={searchTerms}&amp;Submit=Search" />
+  <Url type="application/atom+xml"
+        template="https://discussions.apple.com/community/feeds/search/atom?peopleEnabled=true&amp;q={searchTerms}&amp;Submit=Search" />
+  <Url type="application/rss+xml"
+        template="https://discussions.apple.com/community/feeds/search/rss2?peopleEnabled=true&amp;q={searchTerms}&amp;Submit=Search" />
+  <Image height="48" width="48" type="image/png">https://discussions.apple.com/favicon.png</Image>
+  <Image height="16" width="16" type="image/vnd.microsoft.icon">https://discussions.apple.com/favicon.ico</Image>
+  <Query role="example" searchTerms="cat" />
+</OpenSearchDescription>
