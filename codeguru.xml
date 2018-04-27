@@ -1,0 +1,13 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>CodeGuru</os:ShortName>
+<os:Description>CodeGuru - Microsoft developers related ideas, articles, tips, tricks, comments, downloads, and so much more related to programming in areas including C++, Visual C++, C#, Visual Basic, .NET Framework, and more</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACKUlEQVQ4jbXTzUsUcRzH8clAIkLwFvQ3REFdgpA6ubprFIoHD0GHEB+glJCyLtGtIjDQdXxIupRoZDMO4WFlt/WhFdHWasyHQXPWbXZrc91lZtvxYd4dFiwRDxF+zl9evx/fB4H/jHAggOM4RH9ajKoGyqSOPLGCL7zKp+UfpE1rf0BdWaPRO8qZmj6qHg5zr8tPw+Ne7rS/pfLBEIdcXgrLO3HffsXQ+Cwx41sOSFkb1D59R77LS8X9IfTvKaanJlEGB4lEIjsPXH00jFDajuAWyStu48WwipA0s5yt70co8XKhSSJrbxAMBpFlmVgstuu7xppFabPC8arnnLz+kvdfYgjVLYGc6vLSP7rE/PwckiShquqe3liWhba4wMLCIolEAsdxEI6VdyN4RITiNnzhVQKBALIsY5rmHmB7exu/308oFMK27RxwuKwjB5S20/QsxMxMGEmSSCaTewBN01AUhUwm82cKRbfeILhFBI/IkbIOlNAyH6an8Pl86LpOKpUinU4TjUZRFAVN0wD4ZW/RIn1ECC8lKLzcuYPku0WaeybQ40kMw0DXdSKRCPF4HMuyyG5sIYe+cq6un4Hx5dwY1ZU1ihoHEFxtuYaWeDl6qYPzN19z7YmfG+IYta1BPHcVTlT2cLFhgLlIcvciOQ6MfDaobx3hdE0fBRXd5JWJ5HlECq50caq6l7rWIGOzMZz9NvHvZOxN1k2bddPGym7uV3ZAx/Qv+Q3Cs25e9wkePgAAAABJRU5ErkJggg==</os:Image>
+<SearchForm>https://www.codeguru.com</SearchForm>
+<os:Url type="text/html" method="POST" template="https://www.codeguru.com/search/" resultDomain="codeguru.com">
+  <os:Param name="query" value="{searchTerms}"/>
+  <os:Param name="btnSearch" value="Go"/>
+</os:Url>
+<UpdateUrl>https://raw.githubusercontent.com/zephyrer/opensearch/master/codeguru.xml</UpdateUrl>
+<UpdateInterval>7</UpdateInterval>
+</SearchPlugin>
