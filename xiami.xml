@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opensearchdescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<shortname>Xiami Search</shortname>
+	<description>虾米：搜索高品质音乐</description>
+	<contact>sospartan@xiami.com</contact>
+	<url type="text/html" method="get" template="http://www.xiami.com/search/index/pos/11?key={searchTerms}"></url>
+	<longname>Xiami Music Search</longname>
+	<image height="16" width="16" type="image/vnd.microsoft.icon">http://www.xiami.com/favicon.ico</image>
+	<query role="example" searchterms="am"></query>
+	<developer>xiami.com</developer>
+	<attribution>Copyright 2008, Xiami Music, Inc., All Rights
+		Reserved</attribution>
+	<syndicationright>open</syndicationright>
+	<adultcontent>false</adultcontent>
+	<language>zh-cn</language>
+	<outputencoding>UTF-8</outputencoding>
+	<inputencoding>UTF-8</inputencoding>
+</opensearchdescription>
