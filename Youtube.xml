@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-  <ShortName>YouTube 视频搜索</ShortName>
+  <ShortName>YouTube</ShortName>
   <Description>在 YouTube 上搜索视频</Description>
   <Tags>youtube video</Tags>
   <Image height="16" width="16" type="image/vnd.microsoft.icon">https://www.youtube.com/favicon.ico</Image>
