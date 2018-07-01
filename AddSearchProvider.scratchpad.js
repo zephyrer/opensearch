@@ -8,27 +8,47 @@
  */
 
 /*
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/GoogleImage.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/GoogleIcon.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/AMO.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/kindbook.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/zdic.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/tmall.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/txtnovel.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/jd.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/amzcn.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/zzznan.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/AppleCommunities.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/CodeProject.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/Youtube.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/jd.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/codeguru.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/xiami.xml",
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/yousuu.xml"
+
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/AMO.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/amzcn.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/AppleCommunities.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/codeguru.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/CodeProject.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/ghacks.net.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/GoogleIcon.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/GoogleImage.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/jd.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/onedrivesearch.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/tmall.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/txtnovel.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/Wiktionary_en.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/Wiktionary_zh.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/xiami.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/Youtube.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/zdic.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/zzznan.xml",
+
 */
 
 var seUrls = [
-  "https://raw.githubusercontent.com/zephyrer/opensearch/master/Youtube.xml"
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/AMO.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/amzcn.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/AppleCommunities.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/codeguru.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/CodeProject.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/ghacks.net.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/GoogleIcon.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/GoogleImage.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/jd.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/onedrivesearch.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/tmall.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/txtnovel.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/Wiktionary_en.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/Wiktionary_zh.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/xiami.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/Youtube.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/zdic.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/zzznan.xml"
 ];
 if(typeof(window.external)=='object'){
   try{
