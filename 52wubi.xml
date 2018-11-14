@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>我爱五笔网</os:ShortName>
+<os:Description>我爱五笔网</os:Description>
+<os:InputEncoding>gbk</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEElEQVQ4jY3NT2iScRzH8d9hFKUd1pJCYdSjzYNRyQ6NnVbQ/3CjIUEQIztu0SIhorAHal3qELUOi5Dw9/goth4f/+Qec+oWG3WqViz8UxG51vP0uNQ2Iovt0yW6BPl84Xv7vt5fQjRM2myOTLW1XdBy+89IRxzDNwmBt7kZGYZ5/cRiMWjGP9/c6nj1voDYpSHcIAQjOh0eGo14wTCHNAVWXp5Xq2PtkAt38TavYGQzg9tNTRBbWi42xChe831NHYAcsWLOT/AptReFzyriA+c+aMBD+6sTTsgxG+SIGXOj66Em7JgPrUJuJmT9Ly4mDq7+8exUXYlYUU7uRunBOiwkuyBHLFhO6U83/j5zdlyJ27DweB/k2DaoiXaoUidqjwzTjXFu0FVOdOBLfCcqWSeUmA2VTA/K8a0rs3cM+oaB5dnhkhK3Y+npANSxXahNHEdZ6gQmmaMNMSGE1HP3Uc2LqD6/glq6G5WMA78m7aOa8HX3CR0UEd+KAhY/ZrFUGsf3KceiJkwIIa2tm2zHerpQexdDXZkG6sXQfD67QXPAZDIdXrNWD5NxY7ScT5s0Q0IISSaTWzweD8uy7FWfz+e85/X2BQKBflEU3aIougVB6BcEwSWK4slwONwbjUb3SJJk+RvgeX673+/v5nm+j1J6hlLqppSylNLLf5allLo5jhvkOM5FKe0NBoM7CCHkNysQI9hcj/ExAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>http://www.52wubi.com</SearchForm>
+<os:Url type="text/html" method="POST" template="http://www.52wubi.com/wbbmcx/search.php" resultDomain="52wubi.com">
+  <os:Param name="hzname" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>

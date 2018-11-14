@@ -9,6 +9,7 @@
 
 /*
 
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/52wubi.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/AMO.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/amzcn.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/AppleCommunities.xml",
@@ -31,6 +32,7 @@
 */
 
 var seUrls = [
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/52wubi.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/AMO.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/amzcn.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/AppleCommunities.xml",
