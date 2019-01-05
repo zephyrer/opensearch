@@ -44,6 +44,7 @@ var seUrls = [
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/jd.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/onedrivesearch.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/tmall.xml",
+"https://raw.githubusercontent.com/zephyrer/opensearch/master/twitter.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/txtnovel.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/Wiktionary_en.xml",
 "https://raw.githubusercontent.com/zephyrer/opensearch/master/Wiktionary_zh.xml",
