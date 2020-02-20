@@ -1,7 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/"><script xmlns=""/>
-  <ShortName>书香门第</ShortName>
-  <Description>在书香门第上搜小说</Description>
-  <Image height="16" width="16" type="image/x-icon">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADCklEQVQ4jU3MyU/cdRiA8fl3TDwZTybGiwfjQQ8mLunF2GgkVbu6FGNFwCbSFFs9YMsSEraGzYJIJehAS0OgQAl1CkVImQEGZjp0tt/++77v9/Ewajw8tyefhBJg8bC4WOtjNcKqIRSPUDxi8VANUI1QMajEqIaIBqgNSaj1URvWButjqaAUcSWPG+fwzROMlhENsar/fCFqA9QGJERdRCKMGMRWidgl4BFlSTEyfZVSnMK3O4RawKiL4tWyPqIeCSNVorhKKCUq0TbXb3xG19gp+pMf82HDswzOnuS79jdZ3uynHK4T2D18kyU2JcQ6JIwpEUQHONEWRblHPk7yqNDHYrqFC9deYCnzLT8Nv8PPs19TNEtUzAOOghSOf4CIQyKMjtjO3KH5+2M0t73BlYF36f39UwbnT3O69TmmVs9xued1JhabudJdx0dfvkxbz3mOyo+x1iNhcXHDNAVvnmz0G9dGTjByu4GJe99wrvV5Ju/Xk1xrJRf/wVb2LrulObJPlym7u1iNSQgusZQoexkcecgvc5doG36fjonj1DU9Q/v4e7QPnWLhr06q/jbV4BA/LBLHAdZaEkY9FAelQNWusXHUz74ZJxMN09T1IjvOKE9kijJJnlRSeFEOURdVqQFqIxQf4Smp9DgTi18xs9nI6Fw9vcnjDM1+Ts9UHV2TH7CRmabq7WOkisXUAJEI0RBji7iS4ubd81zqe5XuX08wdOcT+qbO8OPg21weeI3VrUncKIfiozZCbfQvEGPUxbHrDMycZeOom7XDDlb2fuB+uouxxS+40PYSO4V5IlNCrEcsPm5QqQGqikiIJ2luTNczPH+GWyuN3FppZHr5KjMbLVzsfIXN7G1CU8aog9oAS0zC2BBVg2qAEz1mPNnKxetv0Tl6lq6bJ+kda6Cl4xjjc01k8isYrSLqIxogGpAw+DXN+sSap+A+YL+8QN5ZIV9d4qC6QM5Z5rCywkHxIWI9LNH/AOvVAA0RW6Tkb7BbXCCdWyVb+pOCs07R26Hk7hGKg2jwH6A25G9y4odtMrZdfgAAAABJRU5ErkJggg==</Image>
-  <Url type="text/html" method="get" template="http://www.sxmd99.com/search.php?mod=forum&amp;orderby=lastpost&amp;ascdesc=desc&amp;searchsubmit=yes&amp;kw={searchTerms}"/>
-<head xmlns=""/></OpenSearchDescription>
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>书香门第</os:ShortName>
+<os:Description>书香门第</os:Description>
+<os:InputEncoding>gbk</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADCklEQVQ4jU3MyU/cdRiA8fl3TDwZTybGiwfjQQ8mLunF2GgkVbu6FGNFwCbSFFs9YMsSEraGzYJIJehAS0OgQAl1CkVImQEGZjp0tt/++77v9/Ewajw8tyefhBJg8bC4WOtjNcKqIRSPUDxi8VANUI1QMajEqIaIBqgNSaj1URvWButjqaAUcSWPG+fwzROMlhENsar/fCFqA9QGJERdRCKMGMRWidgl4BFlSTEyfZVSnMK3O4RawKiL4tWyPqIeCSNVorhKKCUq0TbXb3xG19gp+pMf82HDswzOnuS79jdZ3uynHK4T2D18kyU2JcQ6JIwpEUQHONEWRblHPk7yqNDHYrqFC9deYCnzLT8Nv8PPs19TNEtUzAOOghSOf4CIQyKMjtjO3KH5+2M0t73BlYF36f39UwbnT3O69TmmVs9xued1JhabudJdx0dfvkxbz3mOyo+x1iNhcXHDNAVvnmz0G9dGTjByu4GJe99wrvV5Ju/Xk1xrJRf/wVb2LrulObJPlym7u1iNSQgusZQoexkcecgvc5doG36fjonj1DU9Q/v4e7QPnWLhr06q/jbV4BA/LBLHAdZaEkY9FAelQNWusXHUz74ZJxMN09T1IjvOKE9kijJJnlRSeFEOURdVqQFqIxQf4Smp9DgTi18xs9nI6Fw9vcnjDM1+Ts9UHV2TH7CRmabq7WOkisXUAJEI0RBji7iS4ubd81zqe5XuX08wdOcT+qbO8OPg21weeI3VrUncKIfiozZCbfQvEGPUxbHrDMycZeOom7XDDlb2fuB+uouxxS+40PYSO4V5IlNCrEcsPm5QqQGqikiIJ2luTNczPH+GWyuN3FppZHr5KjMbLVzsfIXN7G1CU8aog9oAS0zC2BBVg2qAEz1mPNnKxetv0Tl6lq6bJ+kda6Cl4xjjc01k8isYrSLqIxogGpAw+DXN+sSap+A+YL+8QN5ZIV9d4qC6QM5Z5rCywkHxIWI9LNH/AOvVAA0RW6Tkb7BbXCCdWyVb+pOCs07R26Hk7hGKg2jwH6A25G9y4odtMrZdfgAAAABJRU5ErkJggg==</os:Image>
+<SearchForm>http://www.sxmd99.com</SearchForm>
+<os:Url type="text/html" method="POST" template="http://www.sxmd99.com/search.php?searchsubmit=yes&amp;soso=yes" resultDomain="sxmd99.com">
+  <os:Param name="mod" value="search"/>
+  <os:Param name="formhash" value="c4d8bc1d"/>
+  <os:Param name="srchtype" value="title"/>
+  <os:Param name="srhfid" value=""/>
+  <os:Param name="srhlocality" value="forum%3A%3Aindex"/>
+  <os:Param name="tpl" value="table"/>
+  <os:Param name="srchtxt" value="{searchTerms}"/>
+  <os:Param name="searchsubmit" value="true"/>
+</os:Url>
+</SearchPlugin>
