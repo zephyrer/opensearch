@@ -1,0 +1,11 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>豆瓣电影</os:ShortName>
+<os:Description>豆瓣电影</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1UlEQVQ4jb2TsQqCYBCA/1f4X8In6F3ae4EW6XcRagsaGhud7AEEaWhoCDf3QGgOBU0ERXL4GsIgzDKFDj44Du6DO+6EUNITStITTwxoflAn1yKla1yLtCkwdgvm+2UnjN2iKRBKorvm12bdNd+PIJTkkoXkt4LD+fiW/FZwycLPglMUtC7sFAV/EAwaQXdN4jyhrErWx80LZVUS58nnJQolsfwtANpq9KxpqxEAlr9tP6SasT0BYOoYz9rUMQAY25N2wa/REHS9wprWEfo8U/93nknvDgsYRnze3YdwAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>https://search.douban.com</SearchForm>
+<os:Url type="text/html" method="GET" template="https://search.douban.com/movie/subject_search" resultDomain="search.douban.com">
+  <os:Param name="search_text" value="{searchTerms}"/>
+  <os:Param name="cat" value="1002"/>
+</os:Url>
+</SearchPlugin>
